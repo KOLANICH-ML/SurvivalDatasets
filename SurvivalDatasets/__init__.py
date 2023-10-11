@@ -12,6 +12,9 @@ import functools
 
 from .http import get as httpGet
 
+warn("We have moved from M$ GitHub to https://codeberg.org/KOLANICH-ML/SurvivalDatasets.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
+
+
 def column2binary(pds, cn):
 	nna=pds.loc[:, cn].notna()
 	#print(cn, pds.loc[:, cn].unique(), nna.sum())
